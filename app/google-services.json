@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "517830159946",
+    "firebase_url": "https://baten-5d308.firebaseio.com",
+    "project_id": "baten-5d308",
+    "storage_bucket": "baten-5d308.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517830159946:android:682d3023e4216377a980b3",
+        "android_client_info": {
+          "package_name": "com.example.baten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517830159946-62ml2bm4crhjbqbvdgjnv05a0o6hql3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.baten",
+            "certificate_hash": "186727c438e8de93dd4dbc9fd5a215a77af853f2"
+          }
+        },
+        {
+          "client_id": "517830159946-36l7v7f4k88eaftoku6hi07vmrlsbdf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYwL8Gr5ohX-uagoJdGqcjLyWXt32h-9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517830159946-36l7v7f4k88eaftoku6hi07vmrlsbdf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

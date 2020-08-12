@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg_back"
+    tools:context=".StartActivity">
+
+    <TextView
+
+        android:id="@+id/start_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_title"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#2d3436"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_below="@+id/start_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/create_new_account"
+        android:fontFamily="monospace"
+        android:background="@drawable/custom_btn_register"
+        android:textColor="@color/colorWite"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="10sp"
+        android:paddingBottom="8sp"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        />
+
+    <Button
+        android:id="@+id/start_login_btn"
+        android:layout_below="@+id/start_reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/login"
+        android:fontFamily="monospace"
+        android:background="@drawable/custom_btn_login"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="8sp"
+        android:paddingBottom="8sp"
+        android:paddingLeft="50sp"
+        android:textSize="18sp"
+        android:paddingRight="50sp"
+        />
+</RelativeLayout>
